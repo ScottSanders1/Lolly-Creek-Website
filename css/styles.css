@@ -1,0 +1,177 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*header {
+	background: red;
+}
+
+.hero {
+	background: blue;
+	height: 240px;
+}
+.hero h1 {
+	margin: 0;
+}
+.post {
+	background: orange;
+}
+
+footer {
+	background: #333;
+}*/
+h1, h2, h3 {
+	text-align: left;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 100%;
+	}
+}
+
+header {
+	background: #b38321;
+}
+
+header .logo {
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+/*	background: #fff;*/
+}
+
+@media (max-width: 768px) {
+	header .logo {
+		float: none;
+		display: block;
+		margin: 0;
+	}
+}
+
+
+@media (max-width: 768px) {
+	header nav {
+		display: none;
+	}
+
+	header nav.show {
+		display: block;
+	}
+}
+
+.main {
+	display: block;
+	color: red;
+padding: 10px;
+}
+
+
+header nav a {
+	float: left;
+	padding: 26px 30px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) {
+	header nav a {
+		float: none;
+		display: block;
+	}
+}
+
+header nav a:hover {
+	background: rgba(255, 255, 255, .2);
+}
+
+header .mobile-nav-btn {
+	display: none;
+	float: right;
+}
+
+@media (max-width: 768px) {
+	header .mobile-nav-btn {
+		display: inline;
+		float: right;
+		margin: 15px;
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+	}
+}
+
+
+.title-home {
+	float: left;
+	width: 200px;
+}
+
+.posts .post {
+	float: left;
+	width: 25%;
+	padding: 30px;
+	background: #f2f2f2;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.posts .post {
+		float: none;
+		width: 100%;
+	}
+}
+
+footer {
+	background: #333;
+	height: 240px;
+}
+
+@media (max-width: 768px) {
+	footer {
+		height: initial;
+		padding: 10px;
+	}
+}
+
+footer .items .holder-item {
+	float: left;
+	width: 33.333%;
+}
+
+@media (max-width: 768px) {
+	footer .items .holder-item {
+		float: none;
+		width: 100%;	
+	}
+}
+
+.shit {
+margin: 100px;
+background: url(images/lolly_creek_logo.gif);
+}
+
+footer .items .holder-item .item {
+	height: 80px;
+	padding: 10px;
+	margin: 30px;
+	background: rgba(255, 255, 255, .3);
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	footer .items .holder-item .item {
+		margin: 0;
+	}
+}

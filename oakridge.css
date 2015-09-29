@@ -1,0 +1,231 @@
+.clearfix {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+h4 {
+    line-height: 1.7em;
+}
+
+body   {
+     background-color: #F0F5DC;
+     font-family: 'Lato', sans-serif;
+}
+
+/*.pikture {
+    background: url(images/pine-forest-sm.jpg);
+    opacity: 0.4;
+    background-size: cover;
+}*/
+
+.navbar-default {
+    background-color: #B78C21;
+    border-color: #e7e7e7;
+}
+
+.hero {
+    background: url(images/pine-forest-sm.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    display: block;
+    float: left;
+    background: url(images/lolly_creek_logo.gif);
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 100px;
+    margin-bottom: 0px; 
+    width: 200px;
+    height: 300px;
+}
+
+/*.intro {
+    float: left;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}*/
+
+/*.intro p {
+display: block;
+ text-align: center;
+ color: #fff;
+ font-size: 28px;
+ margin-top: 0px;
+}*/
+
+
+
+/*@media (max-width: 768px) {
+.hero {
+display: none;
+width: inherit;
+float: none;
+}
+}*/
+
+@media (max-width: 768px) {
+.logo {
+display: none;
+float: none;
+}
+}
+
+.logo img {
+    text-align: center;
+    margin: 50% 0%;
+    position: relative;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed; top: 0px;
+}
+
+.navbar-toggle {
+margin-right: 30px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+toggle:focus, .navbar-default .navbar-toggle:hover {
+    /*background-color: #F0F5DC;*/
+    background-color: #936d0f;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.container>.navbar-header {
+    margin-right: -15px;
+    margin-left: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #F0F5DC;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #fce2a2;
+}
+
+.hero h1 {
+    margin: 50px, 0px, 0px, 0px;
+}
+
+.col-sm-4 {
+    background-color: rgba(147,109,15,0.2);
+    padding: 15px;
+    border: 5px solid #F0F5DC;
+/*    border-radius: 5px;
+*/}
+
+.col-sm-4 img {
+    width=100%;
+    padding-bottom: 10px;
+}
+
+
+
+    /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #936d0f;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.row{
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #F0F5DC;
+    background-color: transparent;
+}
+
+.col-sm-12 {
+    background-color: LemonChiffon;
+    border: 3px dotted Sienna;
+    color: Sienna;
+    margin: auto;
+    height: 300px;
+    padding-bottom: 0px;
+   /* padding: 0px 100px 50px 100px;*/
+}
+

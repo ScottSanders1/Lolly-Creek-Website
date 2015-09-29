@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Your Title</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+		
+	</head>
+	<body>
+
+		<header class="clearfix">
+
+			<a href="" class="mobile-nav-btn">Nav</a>			
+			
+
+			<nav>
+				<a href="">Home</a>
+				<a href="">About</a>
+				<a href="">Contact</a>
+			</nav>
+
+		</header>
+
+		<div class="hero">
+				<section class="logo">
+				</section>
+					<div class="title-home">
+					<h1>This is important</h1>
+					</div>
+		</div>
+
+		<div class="main clearfix">
+			Welcome to Lolly Creek
+
+About Lolly Creek
+Lolly Creek Ecological Land Management and Restoration is committed to the growth and maintenance of the native landscape of the South—the Longleaf pine/wiregrass ecosystem. Lolly Creek understands the economic, ecological, and aesthetic values that only a natural forest provides
+		</div>
+
+		<div class="posts container clearfix">
+			<div class="post post_1">
+
+				Lolly Creek Services
+
+CRP
+Farm Services
+Longleaf Restoration
+<h3>Complete Restoration Services including:</h3>
+
+<ul>
+	<li>Wiregrass Plugs For Sale</li>
+	<li>Wiregrass Direct Seeding</li>
+	<li>Wiregrass Seed Collection</li>
+	<li>Tree Planting</li>
+	<li>Subsoiling</li>
+	<li>Scalping</li>
+	<li>Mowing</li>		
+</ul></div>
+			<div class="post post_2">Post 2</div>
+			<div class="post post_3">Post 3</div>
+			<div class="post post_4">Post 4</div>
+		</div>
+
+<!-- 	<footer>
+		<div class="items container">
+			<div class="holder-item">
+				<div class="item">Item 1</div>
+			</div>
+			<div class="holder-item">
+				<div class="item">Item 2</div>
+			</div>
+			<div class="holder-item">
+				<div class="item">Item 3</div>
+			</div>
+		</div>
+	</footer> -->
+		
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<script>
+$(document).ready(function() {
+
+$('.mobile-nav-btn').on('click',function(e) {
+			e.preventDefault();
+			$('nav').toggleClass('show')
+})
+
+	})
+</script>
+	</body>
+</html>

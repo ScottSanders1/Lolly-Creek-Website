@@ -1,0 +1,192 @@
+.clearfix {
+    display: table;
+    content: " ";
+    clear: both
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #000  ;
+}
+
+/*TYPE STYLES*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, ul {
+    font-family: inherit;
+    line-height: 1.1;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #C4A028;
+}
+
+
+.item {
+    background-size: cover;
+    height: 500px;
+}
+
+.logo {
+    /*display: block;*/
+   /* float: left;*/
+    background: url(images/lolly_creek_logo.gif) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 20px auto -50px auto;
+    width: 200px;
+    height: 300px;
+}
+
+.navbar-inverse {       
+    background-color: #3b3b19;
+    border-color: #080808;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #E5701B;
+    border: 0px;
+    /* border-color: #ccc; */
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #E5701B;
+     border: 0px;
+/*    border-color: #000;
+*/}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+     border: 0px;
+/*    border-color: #204d74;*/
+}
+
+.bg {
+    background: url(images/pine-forest-bg.jpg);
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.carousel {
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.services {
+    color: #C4A028;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+    color: #C4A028;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
+.navbar-nav a {
+    color: #C4A028;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.marketing h2 {
+    font-weight: 700;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-header {
+    height: 60px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    padding-top: 20px;  
+    color: #fff;
+    background-color: #080808;
+    height: 60px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #C4A028;
+}
+
+.contact {
+    text-align: center;
+}
+
+.featurette-heading {
+    margin-top: 0px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.col-lg-6 {
+    text-align: center;
+}
+
+
+footer {
+    margin: 30px auto;
+    padding: 0px;
+    color: #fff;
+    background-color:rgba(96,96,26,0.3);
+}
+
+footer p {
+padding: 0px;
+}
+
+footer h3 {
+    padding: 0px;
+    font-weight: 700;
+    color: #C4A028
+}
+
+.bottom {
+    color: #fff;
+}
+
+ul {
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.8em;
+}
+
+.carousel-caption {
+    padding-bottom: 175px;
+}
+

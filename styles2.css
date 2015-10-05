@@ -1,0 +1,284 @@
+.clearfix {
+    display: table;
+    content: " ";
+    clear: both
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #000  ;
+}
+
+/*TYPE STYLES*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, ul {
+    font-family: inherit;
+    line-height: 1.1;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+}
+
+.text-muted {
+    color: #C4A028;
+}
+
+
+.item {
+    background-size: cover;
+    height: 500px;
+}
+
+.logo {
+    /*display: block;*/
+   /* float: left;*/
+    background: url(images/lolly_creek_logo.gif) no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 20px auto -50px auto;
+    width: 200px;
+    height: 300px;
+}
+
+.navbar-inverse {       
+    background-color: #323232;
+    border-color: #080808;
+    border: 0px;
+}
+    .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #E5701B;
+    border: 0px;
+    /* border-color: #ccc; */
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #E5701B;
+     border: 0px;
+/*    border-color: #000;
+*/}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+     border: 0px;
+/*    border-color: #204d74;*/
+}
+
+.bg {
+    background: url(images/pine-forest-bg.jpg);
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.bg-about {
+    background: url(images/IMG_2101-small.jpg);
+    margin: 0px auto 40px auto; 
+    height: 500px;
+    background-size: cover;
+}
+
+.carousel {
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.services {
+    color: #C4A028;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+    color: #C4A028;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
+.navbar-nav a {
+    color: #C4A028;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.marketing h2 {
+    font-weight: 700;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-header {
+    height: 60px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    padding-top: 20px;  
+    color: #fff;
+    background-color: #080808;
+    height: 60px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #C4A028;
+}
+
+
+
+.contact {
+    text-align: center;
+}
+
+.featurette-heading {
+    margin-top: 0px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: #C4A028;
+    font-weight: 700;
+}
+}
+
+.col-lg-6 {
+    text-align: center;
+}
+
+.bottom {
+    color: #fff;
+}
+
+ul {
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.8em;
+}
+
+.carousel-caption {
+    padding-bottom: 175px;
+}
+
+
+.col-md-5-about img {
+padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .col-md-5-about img {
+    display: none;
+  }
+}
+
+.about-caption {   
+    text-align: center;
+    background: url(images/gopher-tortoise.jpg);
+    margin: 0px auto 40px auto; 
+    padding-top: 180px;
+    height: 500px;
+    background-size: cover;
+}
+
+.about-caption h1 {
+    font-size: 60px;   
+   text-shadow: 0px 0px 9px rgba(150, 150, 150, 0.8);    
+}
+
+.services-caption {   
+    text-align: center;
+    background: url(images/IMG_2101-small.jpg);
+    margin: 0px auto 40px auto; 
+    padding-top: 180px;
+    height: 500px;
+    background-size: cover;
+}
+
+.services-caption h1 {
+    font-size: 60px;   
+   text-shadow: 0px 0px 9px rgba(150, 150, 150, 0.8); 
+}
+
+.col-md-6 img {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 img {
+    display: none;
+  }
+}
+
+.btn-default {
+    margin-top: 10px;
+}
+
+.featurette-divider {
+    margin: 40px 0;
+}
+
+.centering {
+    text-align: center;
+}
+
+.centering h2 {
+    font-weight: 700;
+}
+
+
+footer {
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+    color: #fff;
+    background-color:rgba(96,96,26,0.3);
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: -30px;
+    padding: 0px;
+}
+
+footer h3 {
+    margin-top: 0px;
+    padding: 0px;
+    font-weight: 700;
+    color: #C4A028
+}
+
+
+p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+.lead p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 10px;
+}

@@ -177,7 +177,12 @@ ul {
 }
 
 .carousel-caption {
-    padding-bottom: 175px;
+    padding-bottom: 200px;
+}
+
+.services-caption h1 {
+    font-size: 60px;   
+   text-shadow: 0px 0px 9px rgba(150, 150, 150, 0.8); 
 }
 
 
@@ -275,10 +280,3 @@ p {
     margin-bottom: 10px;
 }
 
-
-.lead p {
-    font-size: 20px;
-    color: #fff;
-    font-weight: 300;
-    margin-bottom: 10px;
-}
